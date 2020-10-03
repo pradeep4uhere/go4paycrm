@@ -50,14 +50,14 @@ background-color: #3d4353 !important;
             <table>
               <tbody><tr>
                 <td>
-                    <a href="http://localhost/siddiventures/public/index.php" title="SiddiVenture">
-                      <img src="http://localhost/siddiventures/public/themes/siddiventures/images/logo.png" alt="Quickai" width="65" style="vertical-align:middle">
+                    <a href="{{env('APP_URL')}}/public/index.php" title="SiddiVenture">
+                      <img src="{{env('APP_LOGO')}}" alt="{{env('APP_NAME')}}" width="65" style="vertical-align:middle">
                     </a>
                 </td>
                 <td>
-                  <a href="http://localhost/siddiventures/public/index.php" title="SiddiVenture" style="color:#000">
-                  <span style="font-size: 20px;display: block;">SiddhiVentures</span>
-                  <small>Recharge &amp; Bill Payment App</small>
+                  <a href="{{env('APP_URL')}}/public/index.php" title="SiddiVenture" style="color:#000">
+                  <span style="font-size: 20px;display: block;">{{env('APP_NAME')}}</span>
+                  <small>Smart and Easy Pay</small>
                   </a>
                 </td>
               </tr>

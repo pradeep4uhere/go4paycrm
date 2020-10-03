@@ -10,7 +10,7 @@
     <a href="{{env('APP_URL')}}" class="logo" style="background-color: #FFF;">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini">
-        <img src="http://localhost/siddiventures/public/themes/siddiventures/images/logo.png" alt="Quickai" width="50" style="vertical-align:middle">
+        <img src="{{env('APP_LOGO')}}" alt="{{env('APP_NAME')}}" width="50" style="vertical-align:middle">
       </span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg" style="background-color: #FFF; padding-top: 7px;">
@@ -18,12 +18,12 @@
               <tbody><tr>
                 <td style="padding-bottom:0px;">
                     <a href="http://localhost/siddiventures/public/index.php" title="SiddiVenture">
-                      <img src="http://localhost/siddiventures/public/themes/siddiventures/images/logo.png" alt="Quickai" width="50" style="vertical-align:middle">
+                      <img src="{{env('APP_LOGO')}}" alt="Quickai" width="50" style="vertical-align:middle">
                     </a>
                 </td>
                 <td style="padding-bottom: 10px;">
-                  <a href="http://localhost/siddiventures/public/index.php" title="SiddiVenture" style="color:#000">
-                  <span style="font-size: 20px;display: block;">SiddhiVentures</span>
+                  <a href="{{env('API_URL')}}" title="{{env('APP_NAME')}}" style="color:#000">
+                  <span style="font-size: 20px;display: block;">{{env('APP_NAME')}}</span>
                   <small>Administrator</small>
                   </a>
                 </td>
